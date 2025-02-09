@@ -1,6 +1,7 @@
 # Split Bill Calculator
 
-![Split Bill Calculator](public\Calculator.jpg)
+![Split Bill Calculator](public/Calculator.jpg)
+
 Este projeto é um aplicativo de calculadora de divisão de contas, desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
 
 ## Funcionalidades
