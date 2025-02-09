@@ -1,0 +1,216 @@
+:root {
+  --color-lightest: #fff4e6;
+  --color-light: #ffe8cc;
+  --color-medium: #ffa94d;
+  --color-dark: #ff922b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffbf4;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.splitArea {
+  display: flex;
+  gap: 32px;
+  margin-top: calc(50vh - 174px);
+  width: 856px;
+}
+
+.friendSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.friend {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.1s ease;
+}
+
+.friend img {
+  border-radius: 50%;
+}
+
+.friendTxt {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.friend button {
+  background-color: #ff922b;
+  color: rgba(0, 0, 0, 0.678);
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.1s ease;
+  width: 85px;
+}
+
+.friend button:hover {
+  background-color: #ffa94d;
+}
+
+.friend:hover {
+  background-color: #ffe8cc;
+}
+
+.formAddFriends {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: end;
+}
+
+.formAddFriends .form {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 16px;
+  background-color: #ffe8cc;
+  border-radius: 8px;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.form label {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+  align-items: center;
+  font-size: 18px;
+}
+.form input {
+  width: 55%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+}
+.form input:focus {
+  outline-color: #ff922b;
+}
+
+.formAddFriends .form button {
+  width: 55%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff922b;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.678);
+  cursor: pointer;
+  margin-right: 0px;
+  font-size: 16px;
+}
+
+.formAddFriends .form button:hover {
+  background-color: #ffa94d;
+}
+
+.formAddFriends button {
+  margin-right: 16px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff922b;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.678);
+  cursor: pointer;
+}
+
+.formAddFriends button:hover {
+  background-color: #ffa94d;
+}
+
+.formBill {
+  background-color: #ffe8cc;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 32px;
+  border-radius: 8px;
+  width: 424px;
+  justify-content: space-between;
+  height: 348px;
+}
+
+.formBill h2 {
+  font-size: 28px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.billInput {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billInput label {
+  font-size: 18px;
+}
+.billInput input {
+  width: 35%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+.billInput input:focus {
+  outline-color: #ff922b;
+}
+.billInput input:disabled {
+  opacity: 0.6;
+  background-color: white;
+}
+
+.billInput select {
+  width: 35%;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.formBill button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff922b;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.678);
+  cursor: pointer;
+  width: 35%;
+  font-size: 16px;
+}
+
+.formBill button:hover {
+  background-color: #ffa94d;
+}
